@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Project</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/flex-style.css">
+        <!-- <link rel="stylesheet" href="./styles/grid-style.css"> -->
+    </head>
+
+    <body>
+        <header class="hero hero--dark-bg-color">
+            <nav class="hero-grid-container hero__flex-container">
+                <p class="main-text--color hero__header-logo-text--font">Header Logo</p>
+                <ul class="nav-list-container hero__flex-container">
+                    <li><a class="secondary-text--color" href="#">header link one</a></li>
+                    <li><a class="secondary-text--color" href="#">header link two</a></li>
+                    <li><a class="secondary-text--color" href="#">header link three</a></li>
+                </ul>
+            </nav>
+            <article class="hero-grid-container hero__flex-container hero-section--padding">
+                <section class="hero-image--text-section">
+                    <h1 class="main-text--color hero__main-text--font margin--bottom-none">This website is awesome</h1>
+                    <p class="secondary-text--color hero__secondary-text--font margin--top-none">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button class="button--bg-color button--border-radius button--padding button--border-none">Sign up</button>
+                </section>
+                <section class="hero-image-section">
+                    <img class="hero-image" src="./images/hero-image.jpg" alt="hero image illustration">
+                </section>
+            </article>
+        </header>
+        <main>
+            <article class="gallery-section information-section--color">
+                <h2>Gallery</h2>
+                <section class="information-section--grid gallery__flex-container">
+                    <section>
+                        <img src="./images/nature.jpg" alt="Nature illustration">
+                        <p class="gallery-image-subtext">Nature - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsam similique. Dolor debitis eaque nemo, obcaecati doloremque perspiciatis eius, dicta id error esse illo aspernatur. Nam et aspernatur officiis! Nam?</p>
+                    </section>
+
+                    <section>
+                        <img src="./images/beach.jpg" alt="Beach illustration">
+                        <p class="gallery-image-subtext">Beach - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sunt. Vel, maxime illum non tempora necessitatibus aperiam. Doloribus esse, impedit excepturi hic sequi, quae aperiam necessitatibus, nobis est officia unde.</p>
+                    </section>
+
+                    <section>
+                        <img src="./images/space.jpg" alt="Space illustration">
+                        <p class="gallery-image-subtext">Space - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quasi molestiae, consectetur rerum omnis molestias, error sed atque enim, vel est delectus? Possimus nam doloremque ipsa tempora, deserunt consequuntur!</p>
+                    </section>
+
+                    <section>
+                        <img src="./images/snow.jpg" alt="Snow illustration">
+                        <p class="gallery-image-subtext">Snow - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rerum tempore quas delectus doloremque praesentium explicabo autem dolores, quasi sapiente nostrum! Rerum magnam accusamus facilis, dolores obcaecati similique veniam iure.</p>
+                    </section>
+                </section>
+            </article>
+            <article class="information-section--color quote-section--bg-color">
+                <section class="quote-section">
+                    <blockquote class="quote-section--text-position quote--text">
+                        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actully read it. Who knows? All I know is that it looks nice.
+                        <br>
+                        <cite class="quote__author--text"> - Thor</cite>
+                    </blockquote>
+                </section>
+            </article>
+            <article class="call-to-action-section">
+                <section class="button-section button--bg-color button--border-radius call-to-action__flex-container">
+                    <section class="text-align">
+                        <h3 class="margin--bottom-none text--align-start">Call to action! It's time!</h3>
+                        <p class="secondary-text--color margin--top-none">Sign up for our product by clicking that button right over there!</p>
+                    </section>
+                    <section class="button--margin">
+                        <button class="button--bg-color button--border-radius button--border-color button--padding">Sign up</button>
+                    </section>
+                </section>
+            </article>
+        </main>
+        <footer class="footer footer--dark-bg-color">
+            <p>Copyright &#169;</p>
+        </footer>
+    </body>
+</html>

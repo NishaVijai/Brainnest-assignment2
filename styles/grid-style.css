@@ -1,0 +1,122 @@
+.nav-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}
+
+.hero-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.hero-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.information-section--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.text-align {
+    margin-left: 20%;
+    text-align: left;
+}
+
+/* Media query */
+@media (min-width: 850px) and (max-width: 1550px) {
+    .hero {
+        padding: 0 10%;
+    }
+
+    .hero-image--text-section {
+        max-width: 90%;
+    }
+
+    .hero-image-section {
+        margin: 4rem 0;
+    }
+
+    .information-section--grid {
+        max-width: 100%;
+    }
+
+    .quote-section--text-position {
+        width: 80%;
+    }
+
+    .call-to-action-section {
+        padding: 5rem 10%;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 849px) {
+    .hero {
+        padding: 0 2rem;
+    }
+
+    .hero-grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image--text-section {
+        text-align: start;
+        max-width: 90%;
+    }
+
+    .hero-image-section {
+        margin: 4rem 0;
+    }
+
+    .hero-image--text-section {
+        text-align: center;
+    }
+
+    .nav-list-container {
+        text-align: left;
+    }
+
+    .quote-section {
+        padding: 2rem;
+    }
+
+    .quote-section--text-position  {
+        width: 100%;
+    }
+
+    .call-to-action-section {
+        padding: 0;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 649px) {
+    .hero {
+        padding: 0 1rem;
+    }
+
+    .hero-image-section {
+        display: none;
+    }
+
+    .hero-image--text-section {
+        text-align: start;
+        max-width: 100%;
+    }
+
+    .quote-section--text-position  {
+        width: 100%;
+    }
+
+    .call-to-action-section {
+        padding: 0;
+    }
+}
