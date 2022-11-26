@@ -17,6 +17,7 @@
     --text-size-24-px: 24px;
     --text-size-36-px: 36px;
     --text-size-48-px: 48px;
+    --text-size-48-px: 3rem;
 }
 
 /* global reset */
@@ -32,16 +33,27 @@
 
 /* -- global style start -- */
 html,
-body {
+body
+{
+    width: 100%;
     min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body {
     color: var(--color-hex-F9FAF8);
     font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
     margin: 0;
     text-align: center;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .dark-bg-color {
@@ -108,7 +120,7 @@ nav ul li a {
 /* -- main start -- */
 /* -- hero section start -- */
 .hero-section--padding {
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .hero__main-text--font {
@@ -131,8 +143,8 @@ nav ul li a {
 }
 
 .hero-image {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 /* -- hero section end -- */
 
@@ -150,7 +162,11 @@ nav ul li a {
 .gallery-image-subtext {
     margin: 0.5rem auto;
     text-align: left;
-    width: 270px;
+    max-width: 15vw;
+}
+
+figure > img {
+    max-width: 15vw;
 }
 /* -- gallery section end -- */
 
@@ -204,7 +220,6 @@ nav ul li a {
 
 /* -- footer start -- */
 footer {
-    margin-top: auto;
     padding: 0.5rem 0;
 }
 
