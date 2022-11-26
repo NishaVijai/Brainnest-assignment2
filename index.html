@@ -11,52 +11,54 @@
     </head>
 
     <body>
-        <header class="hero hero--dark-bg-color">
-            <nav class="hero-grid-container hero__flex-container">
-                <p class="main-text--color hero__header-logo-text--font">Header Logo</p>
-                <ul class="nav-list-container hero__flex-container">
+        <header class="dark-bg-color header-grid-container header-flex-container">
+            <p class="main-text--color header-logo-text--font">Header Logo</p>
+            <nav class="nav__grid-container nav__flex-container">
+                <ul>
                     <li><a class="secondary-text--color" href="#">header link one</a></li>
                     <li><a class="secondary-text--color" href="#">header link two</a></li>
                     <li><a class="secondary-text--color" href="#">header link three</a></li>
                 </ul>
             </nav>
-            <article class="hero-grid-container hero__flex-container hero-section--padding">
-                <section class="hero-image--text-section">
-                    <h1 class="main-text--color hero__main-text--font margin--bottom-none">This website is awesome</h1>
-                    <p class="secondary-text--color hero__secondary-text--font margin--top-none">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                    <button class="button--bg-color button--border-radius button--padding button--border-none">Sign up</button>
-                </section>
-                <section class="hero-image-section">
-                    <img class="hero-image" src="./images/hero-image.jpg" alt="hero image illustration">
-                </section>
-            </article>
         </header>
         <main>
-            <article class="gallery-section information-section--color">
-                <h2>Gallery</h2>
-                <section class="information-section--grid gallery__flex-container">
-                    <section>
-                        <img src="./images/nature.jpg" alt="Nature illustration">
-                        <p class="gallery-image-subtext">Nature - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsam similique. Dolor debitis eaque nemo, obcaecati doloremque perspiciatis eius, dicta id error esse illo aspernatur. Nam et aspernatur officiis! Nam?</p>
-                    </section>
-
-                    <section>
-                        <img src="./images/beach.jpg" alt="Beach illustration">
-                        <p class="gallery-image-subtext">Beach - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sunt. Vel, maxime illum non tempora necessitatibus aperiam. Doloribus esse, impedit excepturi hic sequi, quae aperiam necessitatibus, nobis est officia unde.</p>
-                    </section>
-
-                    <section>
-                        <img src="./images/space.jpg" alt="Space illustration">
-                        <p class="gallery-image-subtext">Space - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quasi molestiae, consectetur rerum omnis molestias, error sed atque enim, vel est delectus? Possimus nam doloremque ipsa tempora, deserunt consequuntur!</p>
-                    </section>
-
-                    <section>
-                        <img src="./images/snow.jpg" alt="Snow illustration">
-                        <p class="gallery-image-subtext">Snow - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rerum tempore quas delectus doloremque praesentium explicabo autem dolores, quasi sapiente nostrum! Rerum magnam accusamus facilis, dolores obcaecati similique veniam iure.</p>
+            <section class="dark-bg-color hero-section--padding">
+                <section class="hero-grid-container hero__flex-container">
+                    <aside class="hero-image--text-section">
+                        <h1 class="main-text--color hero__main-text--font margin--bottom-none margin--top-none">This website is awesome</h1>
+                        <p class="secondary-text--color hero__secondary-text--font margin--top-none">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                        <button class="button--bg-color button--border-radius button--padding button--border-none">Sign up</button>
+                    </aside>
+                    <section class="hero-image-section">
+                        <img class="hero-image" src="./images/hero-image.jpg" alt="hero image illustration">
                     </section>
                 </section>
-            </article>
-            <article class="information-section--color quote-section--bg-color">
+            </section>
+            <section class="gallery-section quote-section--color">
+                <h2>Gallery</h2>
+                <section class="gallery-section--grid gallery__flex-container">
+                    <figure>
+                        <img src="./images/nature.jpg" alt="Nature illustration">
+                        <figcaption class="gallery-image-subtext">Nature - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsam similique. Dolor debitis eaque nemo, obcaecati doloremque perspiciatis eius, dicta id error esse illo aspernatur. Nam et aspernatur officiis! Nam?</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./images/beach.jpg" alt="Beach illustration">
+                        <figcaption class="gallery-image-subtext">Beach - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sunt. Vel, maxime illum non tempora necessitatibus aperiam. Doloribus esse, impedit excepturi hic sequi, quae aperiam necessitatibus, nobis est officia unde.</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./images/space.jpg" alt="Space illustration">
+                        <figcaption class="gallery-image-subtext">Space - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quasi molestiae, consectetur rerum omnis molestias, error sed atque enim, vel est delectus? Possimus nam doloremque ipsa tempora, deserunt consequuntur!</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./images/snow.jpg" alt="Snow illustration">
+                        <figcaption class="gallery-image-subtext">Snow - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui rerum tempore quas delectus doloremque dolores, quasi sapiente nostrum! Rerum magnam accusamus facilis, dolores obcaecati similique veniam iure.</figcaption>
+                    </figure>
+                </section>
+            </section>
+            <section class="quote-section--color quote-section--bg-color">
                 <section class="quote-section">
                     <blockquote class="quote-section--text-position quote--text">
                         This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actully read it. Who knows? All I know is that it looks nice.
@@ -64,8 +66,8 @@
                         <cite class="quote__author--text"> - Thor</cite>
                     </blockquote>
                 </section>
-            </article>
-            <article class="call-to-action-section">
+            </section>
+            <section class="call-to-action-section">
                 <section class="button-section button--bg-color button--border-radius call-to-action__flex-container">
                     <section class="text-align">
                         <h3 class="margin--bottom-none text--align-start">Call to action! It's time!</h3>
@@ -75,7 +77,7 @@
                         <button class="button--bg-color button--border-radius button--border-color button--padding">Sign up</button>
                     </section>
                 </section>
-            </article>
+            </section>
         </main>
         <footer class="footer footer--dark-bg-color">
             <p>Copyright &#169;</p>
